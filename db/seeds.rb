@@ -16,7 +16,17 @@ Product.create!(
 			out there. If you need to get working programs delivered fast,
 			you should add Ruby to your toolbox.
 		</p>},
-	image_url: 'ruby.jpg',
+	image_url: 'ruby.png',
+	price: 49.95
+	)
+
+Product.create!(
+	title: 'Javascript',
+	description: 
+		%{<p>
+			Javascript is a wonderful language that is supported by all major browsers.
+		</p>},
+	image_url: 'js.png',
 	price: 49.95
 	)
 #...
